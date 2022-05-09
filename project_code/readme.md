@@ -1,3 +1,7 @@
+# Introduction
+**Below shows the mere codes of`SDSC8009_Group4_Code.ipynb`.**\
+**If you want to check out the output of each part, please refer to the original file.**
+
 # Implementation
 
 ## Import Pakages
@@ -31,44 +35,8 @@ dataset = PygNodePropPredDataset(name=dataset_name, root='data')
 evaluator = Evaluator(name='ogbn-arxiv')
 data = dataset[0]
 print(data)
-```
+```    
 
-    Downloading http://snap.stanford.edu/ogb/data/nodeproppred/arxiv.zip
-    
-
-    Downloaded 0.08 GB: 100%|██████████| 81/81 [00:54<00:00,  1.47it/s]
-    
-
-    Extracting data\arxiv.zip
-    
-
-    Processing...
-    
-
-    Loading necessary files...
-    This might take a while.
-    Processing graphs...
-    
-
-    100%|██████████| 1/1 [00:00<00:00, 937.69it/s]
-    
-
-    Converting graphs into PyG objects...
-    
-
-    100%|██████████| 1/1 [00:00<00:00, 358.67it/s]
-
-    Saving...
-    
-
-    
-    
-
-    Data(num_nodes=169343, edge_index=[2, 1166243], x=[169343, 128], node_year=[169343, 1], y=[169343, 1])
-    
-
-    Done!
-    
 
 ## Data visualization
 
