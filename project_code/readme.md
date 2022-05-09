@@ -1,6 +1,6 @@
 # Introduction
-**Below shows the mere codes of`SDSC8009_Group4_Code.ipynb`.**\
-**If you want to check out the output of each part, please refer to the original file.**
+Below shows the mere codes of`SDSC8009_Group4_Code.ipynb`\
+If you want to check out the output of each part, please refer to the original file.
 
 # Implementation
 
