@@ -1,3 +1,7 @@
+# Introduction
+This is a repository for SDSC8009 course project by Group 4.
+Project Name: Node Property Prediction on Ogbn-arxiv
+
 # Environment
 
     Python                        3.9.7
