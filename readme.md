@@ -20,7 +20,7 @@ Project Name: Node Property Prediction on Ogbn-arxiv
 
 # Dataset
 
-[ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) downloaded/saved for use in the directory `'./data'` by running [Code Architecture-Implementation-Dataset](#Code-Architecture).
+[ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) downloaded/saved for use under `'./data'` by running [Code Architecture-Implementation-Dataset](#Code-Architecture).
 
 # Experiments
 
