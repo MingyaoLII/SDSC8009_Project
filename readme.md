@@ -20,11 +20,11 @@ Project Name: Node Property Prediction on Ogbn-arxiv
 
 # Dataset
 
-[ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) downloaded/saved for use under `'./data'` by running [Code Architecture-Implementation-Dataset](#Code-Architecture).
+download/save [ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) to `'./data'` by running [Code Architecture-Implementation-Dataset](#Code-Architecture).
 
-# Experiments
+# Instruction
 
-1. Check the [environment](#Environment).
+1. Check [environment](#Environment).
 
 2. Run the `.ipynb` file to reproduce our experiment results.
    1. Run [Code Architecture-Implementation](#Code-Architecture) for initialization, data visualization, models and functions implementation.
@@ -32,8 +32,8 @@ Project Name: Node Property Prediction on Ogbn-arxiv
    3. Every method is coded independently and all the outputs are attached. Arguments in `args={...}`  can be edited in every method. You can jump to any part of interest following the [Code Architecture-Results](#Code-Architecture).
 
 3. **Notice**:
-   1. 16 GB GPU memory is preferred for reproducing results of GCN-based models, and at least 24 GB GPU memory for GAT-based models. Hardwares we used include NVIDIA Tesla P100-16GB and NVIDIA GeForce RTX 3090-24GB.
-   2. There is an alarm that play sounds every time a model is finished training and evaluated. Please disable the code [Implementation-Functions-Alarm](#Code-Architecture) if you find it disturbing.
+   1. A 16 GB GPU memory is preferred for reproducing results of GCN-based models, and at least 24 GB GPU memory for GAT-based models. NVIDIA Tesla P100-16GB and NVIDIA GeForce RTX 3090-24GB are used.
+   2. There is an alarm that play sounds every time a model finished being trained and evaluated. Please disable the code [Implementation-Functions-Alarm](#Code-Architecture) if you find it disturbing.
 
 # Code Architecture
 
